@@ -15,6 +15,7 @@ public class SpeedCam extends Camera {
     this.reporter = reporter;
   }
 
+  // 📌 추상메서드를 구현
   @Override
   public void showMainFeature() {
     System.out.println("속도 측정, 번호 인식");

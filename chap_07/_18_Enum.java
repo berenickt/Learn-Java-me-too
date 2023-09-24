@@ -1,13 +1,16 @@
 package chap_07;
 
+// 📌 열거형 (Enum) :
+// 한정된 값만을 갖는 데이터 타입으로 몇 개의 열거 상수 중에서 하나의 상수를 저장하는 데이터 타입
+// 즉, 상수들의 묶음
+//
+// e.g.
+// 달력 : JAN, FEB, MAR, ...
+// 옷 사이즈 : S, M, L, XL
+// OS 종류 : WIN10, WIN11, MACOS, LINUX, ...
+// 해상도 : HD, FHD, QHD, UHD, ...
 public class _18_Enum {
   public static void main(String[] args) {
-    // 📌 (1) 열거형 (Enum)
-    // 달력 : JAN, FEB, MAR, ...
-    // 옷 사이즈 : S, M, L, XL
-    // OS 종류 : WIN10, WIN11, MACOS, LINUX, ...
-    // 해상도 : HD, FHD, QHD, UHD, ...
-
     Resolution resolution = Resolution.HD;
     System.out.println(resolution);
 
@@ -44,6 +47,8 @@ public class _18_Enum {
 }
 
 
+// 📌 열거형(enum) 선언 ; Enumeration(열거, 목록)의 약어
+// 열거 타입 이름은 관례적으로 첫 문자를 대문자, 나머지는 소문자로 구성
 enum Resolution {
   HD(1280), FHD(1920), UHD(3840);
 

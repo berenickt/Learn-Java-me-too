@@ -4,9 +4,9 @@ import chap_07.camera.Camera;
 import chap_07.camera.FactoryCam;
 import chap_07.camera.SpeedCam;
 
+// 📌 상속(Inheritance)
 public class _12_Inheritance {
   public static void main(String[] args) {
-    // 상속
     Camera camera = new Camera();
     FactoryCam factoryCam = new FactoryCam();
     SpeedCam speedCam = new SpeedCam();
