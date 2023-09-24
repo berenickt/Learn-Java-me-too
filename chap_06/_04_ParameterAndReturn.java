@@ -16,7 +16,7 @@ public class _04_ParameterAndReturn {
   }
 
   public static void main(String[] args) {
-    // 전달값과 반환값이 있는 메소드
+    // 📌 (1) 전달값과 반환값이 있는 메소드
     int retVal = getPower(2);
     System.out.println(retVal); // 2 * 2 = 4
 

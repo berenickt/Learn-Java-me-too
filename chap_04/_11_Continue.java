@@ -2,7 +2,7 @@ package chap_04;
 
 public class _11_Continue {
   public static void main(String[] args) {
-    // Continue
+    // 📌 (1) Continue
 
     // 치킨 주문 손님중에 노쇼 손님이 있다고 가정
     // For

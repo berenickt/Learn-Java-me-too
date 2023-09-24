@@ -14,7 +14,7 @@ public class _06_WhenToUse {
   }
 
   public static void main(String[] args) {
-    // 메소드가 필요한 이유
+    // 📌 (1) 메소드가 필요한 이유
 
     // 2의 2승을 구하기
     System.out.println(getPower(2, 2)); // 2 * 2 = 4
