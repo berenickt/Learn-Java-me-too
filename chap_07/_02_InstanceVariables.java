@@ -2,7 +2,7 @@ package chap_07;
 
 public class _02_InstanceVariables {
   public static void main(String[] args) {
-    // 처음 만든 블랙박스
+    // 📌 (1) 처음 만든 블랙박스
     BlackBox b1 = new BlackBox();
     b1.modelName = "까망이";
     b1.resolution = "FHD";
@@ -16,7 +16,7 @@ public class _02_InstanceVariables {
 
     System.out.println("-------------------");
 
-    // 새로운 블랙박스 제품
+    // 📌 (2) 새로운 블랙박스 제품
     BlackBox b2 = new BlackBox();
     b2.modelName = "하양이";
     b2.resolution = "UHD";

@@ -2,7 +2,7 @@ package chap_10;
 
 public class _01_AnonymousClass1 {
   public static void main(String[] args) {
-    // 익명 클래스
+    // 📌 (1) 익명 클래스
     Coffee c1 = new Coffee();
     c1.order("아메리카노");
     System.out.println("----------------");
@@ -11,7 +11,7 @@ public class _01_AnonymousClass1 {
     c2.order("라떼");
     System.out.println("----------------");
 
-    // 굉장히 친한 친구 방문
+    // 📌 (1) 굉장히 친한 친구 방문
     Coffee specialCoffee = new Coffee() {
       @Override
       public void order(String coffee) {

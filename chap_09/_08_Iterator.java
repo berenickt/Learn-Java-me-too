@@ -4,7 +4,7 @@ import java.util.*;
 
 public class _08_Iterator {
   public static void main(String[] args) {
-    // 이터레이터
+    // 📌 (1) 이터레이터
     List<String> list = new ArrayList<>();
     list.add("유재석");
     list.add("(알 수 없음)");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _01_Input {
   public static void main(String[] args) {
-    // 사용자 입력
+    // 📌 (1) 사용자 입력
     Scanner sc = new Scanner(System.in);
     // System.out.println("이름을 입력하세요");
     // String name = sc.next();

@@ -6,7 +6,7 @@ import chap_07.camera.SpeedCam;
 
 public class _14_Polymorphism {
   public static void main(String[] args) {
-    // 다형성
+    // 📌 (1) 다형성
 
     // class Person : 사람
     // class Student extends Person : 학생 (학생은 사람이다. Student is a person)

@@ -6,7 +6,7 @@ import chap_09.user.VIPUser;
 
 public class _02_GenericClass {
   public static void main(String[] args) {
-    // 제네릭 클래스
+    // 📌 (1) 제네릭 클래스
     CoffeeByNumber c1 = new CoffeeByNumber(33);
     c1.ready();
 

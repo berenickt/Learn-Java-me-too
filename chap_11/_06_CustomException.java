@@ -2,7 +2,7 @@ package chap_11;
 
 public class _06_CustomException {
   public static void main(String[] args) {
-    // 사용자 정의 예외
+    // 📌 (1) 사용자 정의 예외
     int age = 17; // 만 17세
     try {
       if (age < 19) {
