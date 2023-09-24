@@ -3,7 +3,6 @@ package chap_09;
 import java.util.HashSet;
 
 public class _06_HashSet {
-
   public static void main(String[] args) {
     // 세트
     HashSet<String> set = new HashSet<>();

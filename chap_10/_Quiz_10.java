@@ -17,7 +17,6 @@ package chap_10;
 import java.util.ArrayList;
 
 public class _Quiz_10 {
-
   public static void main(String[] args) {
     ArrayList<Customer> list = new ArrayList<>();
     list.add(new Customer("챈들러", 50));
@@ -28,12 +27,11 @@ public class _Quiz_10 {
 
     System.out.println("미술관 입장료");
     System.out.println("--------------");
-    list
-      .stream()
-      .map(x -> x.age >= 20 ? x.name + " 5000원" : x.name + " 무료")
-      .forEach(System.out::println);
+    list.stream().map(x -> x.age >= 20 ? x.name + " 5000원" : x.name + " 무료")
+        .forEach(System.out::println);
   }
 }
+
 
 class Customer {
 

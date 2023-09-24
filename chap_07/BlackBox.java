@@ -1,7 +1,6 @@
 package chap_07;
 
 public class BlackBox {
-
   String modelName; // 모델명
   String resolution; // 해상도
   int price; // 가격

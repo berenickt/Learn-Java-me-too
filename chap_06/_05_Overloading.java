@@ -1,7 +1,6 @@
 package chap_06;
 
 public class _05_Overloading {
-
   public static int getPower(int number) {
     int result = number * number;
     return result;

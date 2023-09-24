@@ -1,7 +1,6 @@
 package chap_13;
 
 public class _02_Output {
-
   public static void main(String[] args) {
     // System.out.format();
     // System.out.printf();

@@ -1,7 +1,6 @@
 package chap_12.clean;
 
 public class Room {
-
   public int number = 1;
 
   public synchronized void clean(String name) {

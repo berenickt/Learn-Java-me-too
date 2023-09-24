@@ -1,7 +1,6 @@
 package chap_12.clean;
 
 public class CleanRunnable implements Runnable {
-
   @Override
   public void run() {
     System.out.println("-- 직원 청소 시작 (Runnable) --");

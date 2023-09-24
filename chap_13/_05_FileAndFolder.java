@@ -3,7 +3,6 @@ package chap_13;
 import java.io.File;
 
 public class _05_FileAndFolder {
-
   public static void main(String[] args) {
     // String folder = "C:\\Users\\Nadocoding\\Desktop\\JavaWorkspace\\src\\chap_13";
     String folder = "src/chap_13";

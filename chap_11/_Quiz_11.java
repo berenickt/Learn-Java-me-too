@@ -8,7 +8,6 @@ package chap_11;
 // 2 인 경우? 해당 상품은 매진되었습니다. / 다음 기회에 이용해주세요.
 
 public class _Quiz_11 {
-
   public static void main(String[] args) {
     int errorCode = 2;
     try {
@@ -29,12 +28,14 @@ public class _Quiz_11 {
   }
 }
 
+
 class NotOnSaleException extends Exception {
 
   public NotOnSaleException(String message) {
     super(message);
   }
 }
+
 
 class SoldOutException extends Exception {
 

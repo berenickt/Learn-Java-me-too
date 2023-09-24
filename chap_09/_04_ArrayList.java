@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class _04_ArrayList {
-
   public static void main(String[] args) {
     // 컬렉션 프레임워크 (List, Set, Map)
     ArrayList<String> list = new ArrayList<>();

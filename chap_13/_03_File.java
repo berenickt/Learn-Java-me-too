@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class _03_File {
-
   public static void main(String[] args) {
     // 파일 생성 + 정보 얻어오기
     String fileName = "test.txt";

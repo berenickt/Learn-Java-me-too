@@ -1,12 +1,11 @@
 package chap_09;
 
 public class _01_Generics {
-
   public static void main(String[] args) {
     // 제네릭스
-    Integer[] iArray = { 1, 2, 3, 4, 5 };
-    Double[] dArray = { 1.0, 2.0, 3.0, 4.0, 5.0 };
-    String[] sArray = { "A", "B", "C", "D", "E" };
+    Integer[] iArray = {1, 2, 3, 4, 5};
+    Double[] dArray = {1.0, 2.0, 3.0, 4.0, 5.0};
+    String[] sArray = {"A", "B", "C", "D", "E"};
 
     printIntArray(iArray);
     printDoubleArray(dArray);

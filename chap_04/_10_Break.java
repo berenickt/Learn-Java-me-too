@@ -1,7 +1,6 @@
 package chap_04;
 
 public class _10_Break {
-
   public static void main(String[] args) {
     // Break
     // 치킨 집에서 매일 20마리만 판매 (1인당 1마리만 구매 가능)

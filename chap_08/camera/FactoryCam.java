@@ -4,7 +4,6 @@ import chap_08.detector.Detectable;
 import chap_08.reporter.Reportable;
 
 public class FactoryCam extends Camera implements Detectable, Reportable {
-
   private Detectable detector;
   private Reportable reporter;
 

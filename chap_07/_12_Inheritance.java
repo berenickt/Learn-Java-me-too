@@ -5,7 +5,6 @@ import chap_07.camera.FactoryCam;
 import chap_07.camera.SpeedCam;
 
 public class _12_Inheritance {
-
   public static void main(String[] args) {
     // 상속
     Camera camera = new Camera();

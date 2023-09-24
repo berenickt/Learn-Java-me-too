@@ -1,7 +1,6 @@
 package chap_07;
 
 public class _02_InstanceVariables {
-
   public static void main(String[] args) {
     // 처음 만든 블랙박스
     BlackBox b1 = new BlackBox();

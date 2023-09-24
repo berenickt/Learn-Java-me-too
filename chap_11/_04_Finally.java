@@ -1,7 +1,6 @@
 package chap_11;
 
 public class _04_Finally {
-
   public static void main(String[] args) {
     try {
       System.out.println("택시의 문을 연다.");

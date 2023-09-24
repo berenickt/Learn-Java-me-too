@@ -14,7 +14,6 @@ package chap_09;
 import java.util.ArrayList;
 
 public class _Quiz_09 {
-
   public static void main(String[] args) {
     ArrayList<Student> list = new ArrayList<>();
     list.add(new Student("유재석", "파이썬"));
@@ -32,6 +31,7 @@ public class _Quiz_09 {
     }
   }
 }
+
 
 class Student {
 

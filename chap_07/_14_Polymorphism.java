@@ -5,7 +5,6 @@ import chap_07.camera.FactoryCam;
 import chap_07.camera.SpeedCam;
 
 public class _14_Polymorphism {
-
   public static void main(String[] args) {
     // 다형성
 
@@ -34,9 +33,9 @@ public class _14_Polymorphism {
 
     System.out.println("----------------");
 
-    //        factoryCam.detectFire();
-    //        speedCam.checkSpeed();
-    //        speedCam.recognizeLicensePlate();
+    // factoryCam.detectFire();
+    // speedCam.checkSpeed();
+    // speedCam.recognizeLicensePlate();
 
     if (camera instanceof Camera) {
       System.out.println("카메라입니다.");
@@ -50,9 +49,9 @@ public class _14_Polymorphism {
       ((SpeedCam) speedCam).checkSpeed();
       ((SpeedCam) speedCam).recognizeLicensePlate();
     }
-    //        Object[] objs = new Object[3];
-    //        objs[0] = new Camera();
-    //        objs[1] = new FactoryCam();
-    //        objs[2] = new SpeedCam();
+    // Object[] objs = new Object[3];
+    // objs[0] = new Camera();
+    // objs[1] = new FactoryCam();
+    // objs[2] = new SpeedCam();
   }
 }

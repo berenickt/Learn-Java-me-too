@@ -3,7 +3,6 @@ package chap_13;
 import java.io.File;
 
 public class _04_Folder {
-
   public static void main(String[] args) {
     String folderName = "A";
     File folder = new File(folderName);

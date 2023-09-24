@@ -1,7 +1,6 @@
 package chap_09.user;
 
 public class User {
-
   public String name;
 
   public User(String name) {

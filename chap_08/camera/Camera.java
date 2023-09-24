@@ -1,7 +1,6 @@
 package chap_08.camera;
 
 public abstract class Camera {
-
   public void takePicture() {
     System.out.println("사진을 촬영합니다.");
   }

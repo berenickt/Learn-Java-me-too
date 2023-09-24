@@ -1,7 +1,6 @@
 package chap_09.coffee;
 
 public class CoffeeByNickname {
-
   public String nickname;
 
   public CoffeeByNickname(String nickname) {

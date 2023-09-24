@@ -3,7 +3,6 @@ package chap_13;
 import java.io.File;
 
 public class _07_DeleteFile {
-
   public static void main(String[] args) {
     File file = new File("goodjob.txt");
     if (file.exists()) {
@@ -31,10 +30,10 @@ public class _07_DeleteFile {
   }
 
   // deleteFolder(A)
-  //      deleteFolder(B)
-  //          deleteFolder(C)
-  //          C.delete() 삭제
-  //      B.delete() 삭제
+  // deleteFolder(B)
+  // deleteFolder(C)
+  // C.delete() 삭제
+  // B.delete() 삭제
   // A.delete() 삭제
 
   public static boolean deleteFolder(File folder) {

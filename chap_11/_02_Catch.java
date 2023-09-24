@@ -1,7 +1,6 @@
 package chap_11;
 
 public class _02_Catch {
-
   public static void main(String[] args) {
     try {
       // System.out.println(3 / 0);
@@ -16,7 +15,7 @@ public class _02_Catch {
     } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
       System.out.println("뭔가 실수 하셨네요.");
       // } catch (ArrayIndexOutOfBoundsException e) {
-      //   System.out.println("뭔가 실수 하셨네요.");
+      // System.out.println("뭔가 실수 하셨네요.");
     } catch (ClassCastException e) {
       System.out.println("잘못된 형 변환입니다.");
     } catch (Exception e) {

@@ -3,7 +3,6 @@ package chap_09;
 import java.util.HashMap;
 
 public class _07_HashMap {
-
   public static void main(String[] args) {
     // 맵 (Key, Value)
     HashMap<String, Integer> map = new HashMap<>();

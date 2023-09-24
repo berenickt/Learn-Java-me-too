@@ -1,7 +1,6 @@
 package chap_07.camera;
 
 public class SlowActionCam {
-
   public String name;
 
   public SlowActionCam() {

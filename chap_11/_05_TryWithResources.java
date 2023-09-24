@@ -3,7 +3,6 @@ package chap_11;
 import java.io.BufferedWriter;
 
 public class _05_TryWithResources {
-
   public static void main(String[] args) {
     MyFileWriter writer1 = null;
     try {
@@ -30,6 +29,7 @@ public class _05_TryWithResources {
     BufferedWriter bw = null;
   }
 }
+
 
 class MyFileWriter implements AutoCloseable {
 

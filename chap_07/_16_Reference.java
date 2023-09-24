@@ -3,7 +3,6 @@ package chap_07;
 import chap_07.camera.Camera;
 
 public class _16_Reference {
-
   public static void main(String[] args) {
     // 참조
     // 기본 자료형 (Primitive Data Types) : int, float, double, long, boolean, ...

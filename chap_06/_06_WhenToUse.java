@@ -1,7 +1,6 @@
 package chap_06;
 
 public class _06_WhenToUse {
-
   public static int getPower(int number) {
     return getPower(number, 2);
   }

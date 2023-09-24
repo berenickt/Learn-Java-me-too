@@ -3,7 +3,6 @@ package chap_13;
 import java.util.Scanner;
 
 public class _01_Input {
-
   public static void main(String[] args) {
     // 사용자 입력
     Scanner sc = new Scanner(System.in);

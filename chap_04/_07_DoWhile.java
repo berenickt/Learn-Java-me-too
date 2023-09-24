@@ -1,7 +1,6 @@
 package chap_04;
 
 public class _07_DoWhile {
-
   public static void main(String[] args) {
     // 반복문 DoWhile
     int distance = 25; // 전체 거리 25m

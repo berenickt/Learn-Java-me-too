@@ -1,7 +1,6 @@
 package chap_07;
 
 public class BlackBoxRefurbish {
-
   public String modelName; // 모델명
   String resolution; // 해상도
   private int price; // 가격

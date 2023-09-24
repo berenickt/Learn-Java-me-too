@@ -1,7 +1,6 @@
 package chap_07;
 
 public class _18_Enum {
-
   public static void main(String[] args) {
     // 열거형 (Enum)
     // 달력 : JAN, FEB, MAR, ...
@@ -44,10 +43,9 @@ public class _18_Enum {
   }
 }
 
+
 enum Resolution {
-  HD(1280),
-  FHD(1920),
-  UHD(3840);
+  HD(1280), FHD(1920), UHD(3840);
 
   private final int width;
 

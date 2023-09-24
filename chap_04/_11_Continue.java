@@ -1,7 +1,6 @@
 package chap_04;
 
 public class _11_Continue {
-
   public static void main(String[] args) {
     // Continue
 
@@ -15,9 +14,7 @@ public class _11_Continue {
 
       // 손님이 없다면? (noShow)
       if (i == noShow) {
-        System.out.println(
-          i + "번 손님, 노쇼로 인해 다음 손님에게 기회가 넘어갑니다."
-        );
+        System.out.println(i + "번 손님, 노쇼로 인해 다음 손님에게 기회가 넘어갑니다.");
         continue;
       }
 
@@ -40,9 +37,7 @@ public class _11_Continue {
 
       // 손님이 없다면 (noShow)
       if (index == noShow) {
-        System.out.println(
-          index + "번 손님, 노쇼로 인해 다음 손님에게 기회가 넘어갑니다."
-        );
+        System.out.println(index + "번 손님, 노쇼로 인해 다음 손님에게 기회가 넘어갑니다.");
         continue;
       }
 

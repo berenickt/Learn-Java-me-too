@@ -1,7 +1,6 @@
 package chap_07.camera;
 
 public class Camera { // 부모 클래스
-
   public String name;
 
   public Camera() {

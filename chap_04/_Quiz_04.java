@@ -10,7 +10,6 @@ package chap_04;
 // 실행결과 : 주차 요금은 xx 원입니다.
 
 public class _Quiz_04 {
-
   public static void main(String[] args) {
     int hour = 10; // 주차 시간
     boolean isSmallCar = false; // 경차 여부

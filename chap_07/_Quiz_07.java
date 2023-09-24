@@ -1,7 +1,6 @@
 package chap_07;
 
 public class _Quiz_07 {
-
   public static void main(String[] args) {
     HamBurger[] hamBurgers = new HamBurger[3];
     hamBurgers[0] = new HamBurger();
@@ -17,6 +16,7 @@ public class _Quiz_07 {
     System.out.println("메뉴 준비가 완료되었습니다.");
   }
 }
+
 
 class HamBurger {
 
@@ -39,6 +39,7 @@ class HamBurger {
   }
 }
 
+
 class CheeseBurger extends HamBurger {
 
   public CheeseBurger() {
@@ -50,6 +51,7 @@ class CheeseBurger extends HamBurger {
     System.out.println("+ 치즈");
   }
 }
+
 
 class ShrimpBurger extends HamBurger {
 

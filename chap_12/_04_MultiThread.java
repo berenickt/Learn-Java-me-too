@@ -1,7 +1,6 @@
 package chap_12;
 
 public class _04_MultiThread {
-
   public static void main(String[] args) {
     Runnable cleaner1 = new Runnable() {
       @Override

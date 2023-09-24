@@ -10,7 +10,6 @@ package chap_06;
 // length()
 
 public class _Quiz_06 {
-
   public static String getHiddenData(String data, int index) {
     String hiddenData = data.substring(0, index); // 나코딩 -> 나
     // for (int i = index; i < data.length(); i++)

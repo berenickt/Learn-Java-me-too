@@ -3,7 +3,6 @@ package chap_12;
 import chap_12.clean.Room;
 
 public class _05_Synchronization {
-
   public static void main(String[] args) {
     Room room = new Room();
 

@@ -3,7 +3,6 @@ package chap_09;
 import java.util.*;
 
 public class _08_Iterator {
-
   public static void main(String[] args) {
     // 이터레이터
     List<String> list = new ArrayList<>();

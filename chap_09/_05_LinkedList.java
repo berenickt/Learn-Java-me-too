@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 
 public class _05_LinkedList {
-
   public static void main(String[] args) {
     // 링크드 리스트
     LinkedList<String> list = new LinkedList<>();

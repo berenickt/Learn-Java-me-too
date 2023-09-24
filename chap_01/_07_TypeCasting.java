@@ -1,7 +1,6 @@
 package chap_01;
 
 public class _07_TypeCasting {
-
   public static void main(String[] args) {
     // 형변환 TypeCasting
     // 정수형에서 실수형으로

@@ -3,11 +3,11 @@ package chap_13;
 // 속담 퀴즈입니다. 빈 칸에 알맞은 말을 입력하시오. (주관식)
 // -------------------------------------------------
 // (문제) 세 살 __ 여든까지 간다
-//  정답 입력 => 버릇
+// 정답 입력 => 버릇
 // 정답입니다!!!
 //
 // (문제) 소 잃고 ___ 고친다
-//  정답 입력 => 화장실
+// 정답 입력 => 화장실
 // 틀렸습니다. 정답은 외양간입니다.
 //
 // -------------------------------------------------
@@ -19,17 +19,10 @@ import java.io.FileReader;
 import java.util.Scanner;
 
 public class _Quiz_13 {
-
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    try (
-      BufferedReader br = new BufferedReader(
-        new FileReader("src/chap_13/saying.txt")
-      )
-    ) {
-      System.out.println(
-        "속담 퀴즈입니다. 빈 칸에 알맞은 말을 입력하시오. (주관식)"
-      );
+    try (BufferedReader br = new BufferedReader(new FileReader("src/chap_13/saying.txt"))) {
+      System.out.println("속담 퀴즈입니다. 빈 칸에 알맞은 말을 입력하시오. (주관식)");
       System.out.println("-------------------------------------------------");
 
       String quiz; // 문제

@@ -1,7 +1,6 @@
 package chap_11;
 
 public class _03_Throw {
-
   public static void main(String[] args) {
     int age = 17; // 만 17세
     try {

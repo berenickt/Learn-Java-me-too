@@ -1,7 +1,6 @@
 package chap_10;
 
 public class _01_AnonymousClass1 {
-
   public static void main(String[] args) {
     // 익명 클래스
     Coffee c1 = new Coffee();
@@ -29,6 +28,7 @@ public class _01_AnonymousClass1 {
     specialCoffee.returnTray();
   }
 }
+
 
 class Coffee {
 
