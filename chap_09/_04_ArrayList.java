@@ -2,13 +2,17 @@ package chap_09;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Set;
 
+// 📌 (1) 컬렉션 프레임워크 (List, Set, Map)
+// 정의 : 많은 데이터를 쉽고 편하게 관리하기 위해 Java에서 제공해주는 클래스들의 모음
+// List : 순서 유지, 저장, 중복 저장 O (e.g. ArrayList, Vector, Stack, LinkedList 등)
+// Set : 순서 유지, 저장, 중복 저장 X (e.g. HashSet, TreeSet 등)
+// Map : 키와 값을 쌍으로 저장, 순서 유지 X, 키 중복 저장 X (e.g. HashMap, Hashtable, TreeMap, Properties 등)
+// @see
+// https://velog.io/@kai6666/Java-%EC%BB%AC%EB%A0%89%EC%85%98-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-Collection-Framework
 public class _04_ArrayList {
   public static void main(String[] args) {
-    // 📌 (1) 컬렉션 프레임워크 (List, Set, Map)
-    // 정의 : 많은 데이터를 쉽고 편하게 관리하기 위해 Java에서 제공해주는 클래스들의 모음
-    // @see
-    // https://velog.io/@kai6666/Java-%EC%BB%AC%EB%A0%89%EC%85%98-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-Collection-Framework
     ArrayList<String> list = new ArrayList<>();
 
     // 📌 (2) 데이터 추가 =============> add

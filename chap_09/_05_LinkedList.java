@@ -70,11 +70,11 @@ public class _05_LinkedList {
 
     System.out.println("-------------------------");
 
-    // 📌 (8) 변경 (수강권 양도)
+    // 📌 (8) 변경 (수강권 양도) =====> set
     list.set(0, "이수근");
     System.out.println(list.get(0));
 
-    // 📌 (9) 확인
+    // 📌 (9) 확인 =====> indexOf
     System.out.println(list.indexOf("김종국"));
     if (list.contains("김종국")) {
       System.out.println("수강 신청 성공");
@@ -84,7 +84,7 @@ public class _05_LinkedList {
 
     System.out.println("-------------------------");
 
-    // 📌 (10) 전체 삭제
+    // 📌 (10) 전체 삭제 =====> clear
     list.clear();
     if (list.isEmpty()) {
       System.out.println("학생 수 : " + list.size());
