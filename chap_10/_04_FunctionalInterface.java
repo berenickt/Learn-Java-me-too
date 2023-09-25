@@ -2,6 +2,11 @@ package chap_10;
 
 import chap_10.converter.*;
 
+// 📌 함수형 인터페이스(Functional Interface)
+// 1 개의 추상 메소드를 갖는 인터페이스
+// 인터페이스는 기본 구현체를 포함한 디폴트 메서드 (default method) 를 포함할 수 있습니다.
+// 여러 개의 디폴트 메서드가 있더라도 추상 메서드가 오직 하나면 함수형 인터페이스입니다.
+// 자바의 람다 표현식은 함수형 인터페이스로만 사용 가능합니다
 public class _04_FunctionalInterface {
   public static void main(String[] args) {
     KRWConverter converter = new KRWConverter();

@@ -1,8 +1,14 @@
 package chap_10;
 
+// 📌 (1) 익명 클래스 : 이름이 없는 클래스
+// e.g. 익명게시판 : 이름없이 글을 쓰는 게시판
+// 📌 내부 클래스(inner class) : 클래스 안에 선언된 또 다른 클래스
+// 내부 클래스 중 이름이 없는 것을 "익명 클래스"라고 부릅니다.
+// 익명이라는 이름과 같이 메모리를 차지하지 않는다
+// 람다로 코딩을 하면, 메모리가 사용되지 않으므로 재사용하지 않고 일회용으로 많이 사용된다.
+// 이러한 이유 때문에 익명 함수는 아래와 같이 변수에 담아서 많이 사용한다
 public class _01_AnonymousClass1 {
   public static void main(String[] args) {
-    // 📌 (1) 익명 클래스
     Coffee c1 = new Coffee();
     c1.order("아메리카노");
     System.out.println("----------------");
@@ -11,7 +17,7 @@ public class _01_AnonymousClass1 {
     c2.order("라떼");
     System.out.println("----------------");
 
-    // 📌 (1) 굉장히 친한 친구 방문
+    // 📌 (2) 굉장히 친한 친구 방문 <=========== 익명 클래스
     Coffee specialCoffee = new Coffee() {
       @Override
       public void order(String coffee) {
@@ -31,7 +37,6 @@ public class _01_AnonymousClass1 {
 
 
 class Coffee {
-
   public void order(String coffee) {
     System.out.println("주문하신 " + coffee + " 나왔습니다.");
   }

@@ -7,6 +7,15 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+// 📌 스트림(Streams)
+// 자바 8에서 추가한 Streams은 람다를 활용할 수 있는 기술 중 하나
+// 자바 8 이전에는 배열 또는 컬렉션 인스턴스를 다루는 방법은 for 또는 foreach 문을 돌면서 요소 하나씩을 꺼내서 다루는 방법
+//
+// 스트림은 '데이터의 흐름’
+// 배열 또는 컬렉션 인스턴스에 함수 여러 개를 조합해서 원하는 결과를 필터링하고 가공된 결과를 얻을 수 있음
+// 또한 람다를 이용해서 코드의 양을 줄이고 간결하게 표현 가능
+// 즉, 배열과 컬렉션을 함수형으로 처리 가능
+// JS의 함수형 프로그래밍과 유사
 public class _05_Stream {
   public static void main(String[] args) {
     // 📌 (1) 스트림 생성
